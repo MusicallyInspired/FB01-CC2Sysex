@@ -15,6 +15,7 @@ This script is currently still unfinished. Its basic functions work (please repo
 * Dedicate a MIDI CC to sending the "Init" blank slate default voice dump _to_ the FB-01 so you can start from scratch again at any time
 * Make it easier to make your own CC to Sysex assignments, including removing some Sysex messages you don't want or need to make room for others (there are technically more sysex messages than there are CC controllers to utilize)
 * Possible RPN/NRPN implementation as an alternative when running out of CCs?
+* Support other synths (MT-32, TX81z, SC-55, MU-80, etc?) whose voice parameters can't normally be controlled by MIDI CC messages
 
 ### CC/Sysex Mapping Chart
 [Click here to view the full chart](mappingchart.md)
