@@ -16,7 +16,7 @@ This script is currently still unfinished. Its basic functions work (please repo
 * Possible RPN/NRPN implementation as an alternative when running out of CCs?
 
 ## Current Hardcoded CC Mapping
-[Click here to view the full chart](mappingchart.md).
+[Click here to view the full chart](mappingchart.md)
 
 ### Multi/DT2 Parameter Frequency Chart
 CCs 39, 55, 74, and 90 are dedicated to changing each of the 4 Operators' frequency multiplier. It modifies both the Multi and DT2 (Fine Detune) parameters together to span the entire range of multiplier values available. Multi has 16 values and DT2 has 4 bringing a maximum range of 64. Below shows the frequency multiplier values that each CC value corresponds to:
