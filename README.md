@@ -3,7 +3,7 @@ This script reads MIDI message from an input port and passes them through to an 
 
 ### Dependencies
 * Mido
-* Colorama *(for console log output, possibly temporary)*
+* Colorama *(for console log output readability while debugging, possibly temporary)*
 
 ### Current State:
 This script is currently still unfinished. Its basic functions work (please report any bugs if you run into any!) but right now it will start with a default blank slate "INIT" voice parameters. There isn't currently any implementation to let the FB-01 know that. Which means any modifications to parameters will be done in context with the "INIT" voice and you could see parameters reset to zero (or whatever the defaults are) that share sysex messages with other parameters that you modify. Meaning you'll have to set those again.
